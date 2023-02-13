@@ -1,0 +1,223 @@
+/* reset */
+*  {/*il étoile ma3nehane5dem 3a kol*/
+    margin: 0;/*bach ina7i les caractéristiques par defaut*/
+    padding: 0;
+    box-sizing: border-box;/*ach man2atharich 3al 9yaset */
+}
+html,body { 
+    font-family: 'Open Sans', sans-serif;
+    color: #222; }
+   
+/* generale */
+
+h1,h2,h3{
+    margin-bottom: 20px;
+}
+a{
+    color:#222;
+text-decoration:none ;
+}
+.separator {
+    margin: auto;
+    height: 8px;
+    width: 150px;
+    background: #111 ;
+    border-radius: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 30px; 
+    font-weight: 700; /*ma3neha en gras idha 300 twali 3adiya w hakadha */
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color:#f5f5f5;
+    color: #222;
+}
+.btn-primary:hover{
+    background-color: #222;
+    color: #f5f5f5;
+}
+.btn-dark{
+    background-color: #222;
+    color: #f5f3f3;
+}.btn-dark:hover{
+    background-color: #f8f0f0;
+    color: #222;
+    
+}
+
+.my-10{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.my-20 {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.container {
+  max-width: 1000px;
+ display: block;
+ margin: auto;
+}
+.underline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f3f3;
+}
+.chip { 
+    width: 30px;
+    border-radius: 100%;
+    background: #333;
+    color: #f5f3f3;
+    display:inline-block;
+    text-align: center;
+    
+}
+/* header */
+.header{
+    background: #333;
+    overflow: auto; /*bach illy 5arej yitsaref fih*/
+    line-height: 1.7em;  /*em ytaba3 il parent*/
+}
+.header nav h1{
+    padding: 20px;
+    float: left;
+    margin-bottom: 0px;
+}
+.header nav ul{
+    float: right;
+    list-style: none;
+}
+.header nav ul li{
+    float: left;
+  
+}
+.header nav ul li a{
+    display: block;
+    color:white;
+    padding: 20px;
+}
+.header nav ul li a:hover{
+    background:#444;
+}
+.active {
+    border-bottom: 1px solid #fff;
+    background:#444; /*il page illy eni feha tabda mlawna bil gris*/
+}
+/* vp */
+.vp{
+    height: 700px;
+    background: url(../images/cafe1.jpg)center center/cover;/*3ibara 9otlou 50% 50%*/
+    text-align: center;
+}
+
+.vp-content {
+    max-width: 600px;
+    padding-top: 150px;
+    color:white;
+    display: block;
+    margin:auto; 
+}
+
+.vp-content h1{
+font-size: 3rem;
+    }
+.vp-content p {
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 1.9em;
+}
+  /* Features */
+  .features{
+    overflow:auto;
+    text-align: center;
+    padding: 100px 20px 100px 20px;
+  }
+  
+ .feature{
+        float: left;
+        width: 50%;
+    }
+    /* person */
+.person{
+    height: 700px;
+    background: url(../images/cafe3.jpg) center center/cover ;
+    overflow: auto;
+}
+/* reservation */
+.reservation{
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    background: #222;
+    color: #f5f3f3;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+footer p{ 
+    margin-bottom: opx;
+
+}
+/* where */
+.where{
+    padding: 180px 0px 100px 0px;
+    overflow: auto;
+    min-height: 100vh;
+}
+.where-img{
+    float: left;
+    width:45%;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+}
+.where-text{
+    float: right;
+    width: 50%;
+}
+.chip-purple{
+    background:#ce0581;
+}
+.chip-brown {
+    background: #3d1205;
+}
+/* contact*/
+.contact{
+    
+    padding:180px 0px 100px 0px;
+    min-height: 100vh;
+}
+
+.contact-from-container {
+    max-width: 600px;
+    margin: auto;
+}
+.contact-from-container form label {
+    display:block ;/*bach yjiw ta7t b3adhom kol wa7da fi block*/
+    font-weight: 700;
+}
+.contact-from-container form {
+min-height: 80px;
+}
+.contact-from-container form input,textarea{
+    display: block; 
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+.contact-from-container form,textarea{
+    
+    min-height: 80px;
+}
+
+
